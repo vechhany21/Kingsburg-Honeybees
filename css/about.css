@@ -17,6 +17,7 @@ img {
 
 .li-style {
     float: left;
+    margin-top:1em;
 }
 
 li a {
@@ -37,4 +38,19 @@ li a {
 
 .li-style a:visited {
     color: black;
+}
+
+.harvested-honey {
+ padding:1px; 
+ margin:1px; 
+}
+
+.lemon-honey {
+    padding:1px; 
+    margin:1px;   
+}
+
+.honey-comb {
+    padding:1px; 
+    margin:1px;   
 }

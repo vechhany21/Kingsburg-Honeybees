@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 img {
     float: left;
     overflow: hidden;
@@ -40,9 +42,12 @@ li a {
     color: black;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family:'Satisfy', cursive}
 * {box-sizing: border-box;}
-
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+/*contact form*/ 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -55,7 +60,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #bebebe;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -64,11 +69,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: cornsilk;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: cornsilk;
   padding: 20px;
 }

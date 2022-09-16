@@ -67,16 +67,17 @@ P {
   section {
     width: 100%;
     display: inline-block;
-    background: #ccc;
-    height: 60vh;
+    background: cornsilk;
+    height: 10vh;
     text-align: center;
     font-size: 22px;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
+    padding-top: 0.7em;
   }
   
   .footer-distributed {
-    background-color: #292c2f;
+    background-color: rgba(190, 184, 184, 0.493);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -149,7 +150,7 @@ P {
   /* Media Queries */
   
   @media (max-width: 600px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-right 
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
       text-align: center;
     }
     .footer-distributed .footer-right {
@@ -159,3 +160,4 @@ P {
     .footer-distributed .footer-left p.footer-links {
       line-height: 1.8;
     }
+  }

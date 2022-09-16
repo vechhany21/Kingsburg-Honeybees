@@ -30,7 +30,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 22px;
 }
 
 .li-style a:hover {
@@ -53,10 +53,4 @@ p {
     width: 30%;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+ 
